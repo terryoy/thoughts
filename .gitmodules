@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:terryoy/thoughts.git
+[submodule "source"]
+	path = source
+	url = git@github.com:terryoy/thoughts.git

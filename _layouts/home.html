@@ -15,7 +15,10 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+            {% if post.is_draft %}<i class="draft-note"><small>[未发布]</small></i>{% endif %}
+          </a>
         </h2>
 
         {{ post.excerpt }}

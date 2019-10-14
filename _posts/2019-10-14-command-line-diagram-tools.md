@@ -89,6 +89,13 @@ date: 2019-10-14 12:40
 同时还支持SVG、PNG、PDF等各种格式。
 
 
+### 7. gnuplot
+
+* 网址：http://www.gnuplot.info/
+* 语言：C？
+
+gnuplot跟GNU没有任何关系。这是一个除了画chart的非常广泛被使用的软件。
+
 
 
 

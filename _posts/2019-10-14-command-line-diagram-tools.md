@@ -58,7 +58,7 @@ date: 2019-10-14 12:40
 
 ### 5. PlantUML
 
-* 网址：https://github.com/plantuml/plantuml
+* 网址：<https://github.com/plantuml/plantuml>
 * 语言：Java
 
 支持主要的UML图，比如：
@@ -81,7 +81,7 @@ date: 2019-10-14 12:40
 
 ### 6. Kroki
 
-* 网址：https://github.com/yuzutech/kroki
+* 网址：<https://github.com/yuzutech/kroki>
 * 语言：Java，JavaScript，Python
 
 一个大合集的web服务，包括了BlockDiag、PlantUML、Ditaa、GraphViz、Mermaid等各种方案的实现，提供一个统一的web接口来实现图片的导出。
@@ -91,8 +91,8 @@ date: 2019-10-14 12:40
 
 ### 7. gnuplot
 
-* 网址：http://www.gnuplot.info/
-* 语言：C？
+* 网址：<http://www.gnuplot.info/>
+* 语言：C
 
 gnuplot跟GNU没有任何关系。这是一个除了画chart的非常广泛被使用的软件。
 

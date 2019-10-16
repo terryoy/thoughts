@@ -76,5 +76,11 @@ date: 2019-10-16 12:26
 
 slides.com还提供了一个在线编辑器来编辑reveal的演讲稿。
 
+### 3.4 spectacle
 
+* 链接：<https://github.com/FormidableLabs/spectacle>
+* 格式：React
+* 技术：JS
+
+功能和完整度跟Reveal.js相似，利用了React的优点，你可以在里面使用一些动态渲染的技巧，还支持多屏渲染，比reveal.js走得更往前一步。
 

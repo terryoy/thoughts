@@ -74,3 +74,7 @@ date: 2019-10-16 12:26
 
 一个HTML presnetation框架，功能比较完整，也有不少其他工具是引用reveal.js来作为输出框架的。它甚至可以用来导出其他格式（如pdf）的ppt。
 
+slides.com还提供了一个在线编辑器来编辑reveal的演讲稿。
+
+
+

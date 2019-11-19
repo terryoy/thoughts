@@ -36,6 +36,8 @@ date: 2019-10-16 12:26
 
 把Markdown格式的presentation导出为HTML的网页presentation，还可以自己改CSS样式。
 
+甚至可以打开摄像头直播，适合制作直播视频。
+
 
 ## 2. 自定义格式
 

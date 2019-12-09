@@ -13,7 +13,8 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  // line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $spacing-unit * 1.865; // same as header
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -22,11 +23,17 @@
   &:visited {
     color: $grey-color-dark;
   }
+
+  i {
+    color: #ccc;
+    font-weight: 500;
+  }
 }
 
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: $content-background-color;
 
   .nav-trigger {
       display: none;
@@ -38,12 +45,15 @@
 
   .page-link {
     color: $text-color;
-    line-height: $base-line-height;
+    line-height: $spacing-unit * 1.865; // same as header
+    @include media-query($on-laptop) {
+      line-height: $base-line-height;
+    }
 
     // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    // &:not(:last-child) {
+    //   margin-right: 10px;
+    // }
   }
 
   @include media-query($on-palm) {
@@ -94,7 +104,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
+      // margin-left: 20px;
     }
   }
 }
@@ -177,6 +187,9 @@
 .page-content {
   background-color: $background-color;
   padding: $spacing-unit 0;
+  @include media-query($on-laptop) {
+    padding: $spacing-unit / 6 0;
+  }
 }
 
 .page-heading {
@@ -184,9 +197,13 @@
 }
 
 .page-content-wrapper {
-  background-color: $content-background-color;
+  background: $content-background;
   padding: $spacing-unit;
   border-radius: 5px;
+
+  @include media-query($on-laptop) {
+    border-radius: 0px;
+  }
 }
 
 .post-list {

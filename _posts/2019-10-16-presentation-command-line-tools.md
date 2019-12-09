@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 命令行写Presentation的工具
-tags: 
+tags:
 date: 2019-10-16 12:26
 ---
 
@@ -12,7 +12,9 @@ date: 2019-10-16 12:26
 ## 1. 用Markdown写PPT
 
 
-### 1.1 mdp - A command-line based markdown presentation tool
+### 1.1 mdp
+
+A command-line based markdown presentation tool
 
 * 链接：<https://github.com/visit1985/mdp>
 * 技术：C，ncurses
@@ -20,7 +22,9 @@ date: 2019-10-16 12:26
 在终端显示presentation的工具，使用Markdown格式作为编写内容的方式。
 
 
-### 1.2 mdv - A simple, styled command-line presentation tool using markdown, built with blessed-vue
+### 1.2 mdv
+
+A simple, styled command-line presentation tool using markdown, built with blessed-vue
 
 * 链接：<https://github.com/smketterer/mdv>
 * 技术：JS
@@ -29,7 +33,9 @@ date: 2019-10-16 12:26
 有更丰富的样式，也是在终端显示的，基于markdown的presentation。
 
 
-### 1.3 Pochani: Turn Markdown into elegant presentations
+### 1.3 Pochani
+
+Turn Markdown into elegant presentations
 
 * 链接：<https://github.com/theanam/pochani>
 * 技术：JS
@@ -37,6 +43,8 @@ date: 2019-10-16 12:26
 把Markdown格式的presentation导出为HTML的网页presentation，还可以自己改CSS样式。
 
 甚至可以打开摄像头直播，适合制作直播视频。
+
+这个我在[design-pattern-exeries](https://terryoy.github.io/design-pattern-exercises/presentations/)里面使用了，因为是NodeJS技术栈的，很方便。
 
 
 ## 2. 自定义格式
@@ -85,4 +93,3 @@ slides.com还提供了一个在线编辑器来编辑reveal的演讲稿。
 * 技术：JS
 
 功能和完整度跟Reveal.js相似，利用了React的优点，你可以在里面使用一些动态渲染的技巧，还支持多屏渲染，比reveal.js走得更往前一步。
-

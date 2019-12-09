@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 命令行下画图调研
-tags: 
+tags: tools
 date: 2019-10-14 12:40
 ---
 
@@ -95,7 +95,3 @@ date: 2019-10-14 12:40
 * 语言：C
 
 gnuplot跟GNU没有任何关系。这是一个除了画chart的非常广泛被使用的软件。
-
-
-
-

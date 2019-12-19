@@ -28,53 +28,53 @@ Jekyll的可定制程度应该蛮高的，有很多插件，但之前我都只�
 
 来源：[【Github Pages的依赖版本一览】](https://pages.github.com/versions/)
 
-| Dependency                                                   | Version |
-| :----------------------------------------------------------- | :------ |
-| [jekyll](https://rubygems.org/gems/jekyll)                   | 3.8.5   |
-| [github-pages-health-check](https://rubygems.org/gems/github-pages-health-check) | 1.16.1  |
-| [github-pages](https://rubygems.org/gems/github-pages)       | 203     |
-| [html-pipeline](https://rubygems.org/gems/html-pipeline)     | 2.12.2  |
-| [jekyll-avatar](https://rubygems.org/gems/jekyll-avatar)     | 0.7.0   |
-| [jekyll-coffeescript](https://rubygems.org/gems/jekyll-coffeescript) | 1.1.1   |
-| [jekyll-commonmark-ghpages](https://rubygems.org/gems/jekyll-commonmark-ghpages) | 0.1.6   |
-| [jekyll-default-layout](https://rubygems.org/gems/jekyll-default-layout) | 0.1.4   |
-| [jekyll-feed](https://rubygems.org/gems/jekyll-feed)         | 0.13.0  |
-| [jekyll-gist](https://rubygems.org/gems/jekyll-gist)         | 1.5.0   |
-| [jekyll-github-metadata](https://rubygems.org/gems/jekyll-github-metadata) | 2.12.1  |
-| [jekyll-mentions](https://rubygems.org/gems/jekyll-mentions) | 1.5.1   |
-| [jekyll-optional-front-matter](https://rubygems.org/gems/jekyll-optional-front-matter) | 0.3.2   |
-| [jekyll-paginate](https://rubygems.org/gems/jekyll-paginate) | 1.1.0   |
-| [jekyll-readme-index](https://rubygems.org/gems/jekyll-readme-index) | 0.3.0   |
-| [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) | 0.15.0  |
-| [jekyll-relative-links](https://rubygems.org/gems/jekyll-relative-links) | 0.6.1   |
-| [jekyll-remote-theme](https://rubygems.org/gems/jekyll-remote-theme) | 0.4.1   |
-| [jekyll-sass-converter](https://rubygems.org/gems/jekyll-sass-converter) | 1.5.2   |
-| [jekyll-seo-tag](https://rubygems.org/gems/jekyll-seo-tag)   | 2.6.1   |
-| [jekyll-sitemap](https://rubygems.org/gems/jekyll-sitemap)   | 1.4.0   |
-| [jekyll-swiss](https://rubygems.org/gems/jekyll-swiss)       | 1.0.0   |
-| [jekyll-theme-architect](https://rubygems.org/gems/jekyll-theme-architect) | 0.1.1   |
-| [jekyll-theme-cayman](https://rubygems.org/gems/jekyll-theme-cayman) | 0.1.1   |
-| [jekyll-theme-dinky](https://rubygems.org/gems/jekyll-theme-dinky) | 0.1.1   |
-| [jekyll-theme-hacker](https://rubygems.org/gems/jekyll-theme-hacker) | 0.1.1   |
-| [jekyll-theme-leap-day](https://rubygems.org/gems/jekyll-theme-leap-day) | 0.1.1   |
-| [jekyll-theme-merlot](https://rubygems.org/gems/jekyll-theme-merlot) | 0.1.1   |
-| [jekyll-theme-midnight](https://rubygems.org/gems/jekyll-theme-midnight) | 0.1.1   |
-| [jekyll-theme-minimal](https://rubygems.org/gems/jekyll-theme-minimal) | 0.1.1   |
-| [jekyll-theme-modernist](https://rubygems.org/gems/jekyll-theme-modernist) | 0.1.1   |
-| [jekyll-theme-primer](https://rubygems.org/gems/jekyll-theme-primer) | 0.5.4   |
-| [jekyll-theme-slate](https://rubygems.org/gems/jekyll-theme-slate) | 0.1.1   |
-| [jekyll-theme-tactile](https://rubygems.org/gems/jekyll-theme-tactile) | 0.1.1   |
-| [jekyll-theme-time-machine](https://rubygems.org/gems/jekyll-theme-time-machine) | 0.1.1   |
-| [jekyll-titles-from-headings](https://rubygems.org/gems/jekyll-titles-from-headings) | 0.5.3   |
-| [jemoji](https://rubygems.org/gems/jemoji)                   | 0.11.1  |
-| [kramdown](https://rubygems.org/gems/kramdown)               | 1.17.0  |
-| [liquid](https://rubygems.org/gems/liquid)                   | 4.0.3   |
-| [minima](https://rubygems.org/gems/minima)                   | 2.5.1   |
-| [nokogiri](https://rubygems.org/gems/nokogiri)               | 1.10.6  |
-| [rouge](https://rubygems.org/gems/rouge)                     | 3.13.0  |
-| [ruby](https://www.ruby-lang.org/en/downloads/)              | 2.5.3   |
-| [safe_yaml](https://rubygems.org/gems/safe_yaml)             | 1.0.5   |
-| [sass](https://rubygems.org/gems/sass)                       | 3.7.4   |
+| Dependency                                                   | Function                                           | Version |
+| :----------------------------------------------------------- | -------------------------------------------------- | :------ |
+| [jekyll](https://rubygems.org/gems/jekyll)                   | Jekyll博客主程序                                   | 3.8.5   |
+| [github-pages-health-check](https://rubygems.org/gems/github-pages-health-check) | 检查GitHub Pages的DNS配置问题                      | 1.16.1  |
+| [github-pages](https://rubygems.org/gems/github-pages)       | 本地启动Github Pages的jekyll环境                   | 203     |
+| [html-pipeline](https://rubygems.org/gems/html-pipeline)     | Github的HTML处理器，包括filter和工具               | 2.12.2  |
+| [jekyll-avatar](https://rubygems.org/gems/jekyll-avatar)     | Github Avatar显示                                  | 0.7.0   |
+| [jekyll-coffeescript](https://rubygems.org/gems/jekyll-coffeescript) | Coffee Script转换器                                | 1.1.1   |
+| [jekyll-commonmark-ghpages](https://rubygems.org/gems/jekyll-commonmark-ghpages) | CommonMark（Markdown语法）生成器                   | 0.1.6   |
+| [jekyll-default-layout](https://rubygems.org/gems/jekyll-default-layout) | 设置Pages和Post的默认layout                        | 0.1.4   |
+| [jekyll-feed](https://rubygems.org/gems/jekyll-feed)         | 根据posts生成atom feed                             | 0.13.0  |
+| [jekyll-gist](https://rubygems.org/gems/jekyll-gist)         | 在Jekyll里显示gist的liquid tag                     | 1.5.0   |
+| [jekyll-github-metadata](https://rubygems.org/gems/jekyll-github-metadata) | site.github命名空间                                | 2.12.1  |
+| [jekyll-mentions](https://rubygems.org/gems/jekyll-mentions) | @mention的支持                                     | 1.5.1   |
+| [jekyll-optional-front-matter](https://rubygems.org/gems/jekyll-optional-front-matter) | 让Jekyll的Front Matter（markdown文件头部的元信息） | 0.3.2   |
+| [jekyll-paginate](https://rubygems.org/gems/jekyll-paginate) | 内置分页功能                                       | 1.1.0   |
+| [jekyll-readme-index](https://rubygems.org/gems/jekyll-readme-index) | 用README作为默认index页的功能                      | 0.3.0   |
+| [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) | 设定pages和posts里面的跳转链接                     | 0.15.0  |
+| [jekyll-relative-links](https://rubygems.org/gems/jekyll-relative-links) | 生成Markdown里面的相对路径                         | 0.6.1   |
+| [jekyll-remote-theme](https://rubygems.org/gems/jekyll-remote-theme) | 直接引用Github Host的样式主题来生成网站            | 0.4.1   |
+| [jekyll-sass-converter](https://rubygems.org/gems/jekyll-sass-converter) | SASS样式转换器                                     | 1.5.2   |
+| [jekyll-seo-tag](https://rubygems.org/gems/jekyll-seo-tag)   | 自动给页面增加一些SEO用的meta标签                  | 2.6.1   |
+| [jekyll-sitemap](https://rubygems.org/gems/jekyll-sitemap)   | 生成一个sitemap.xml，也是为了SEO的吧               | 1.4.0   |
+| [jekyll-swiss](https://rubygems.org/gems/jekyll-swiss)       | 一个受Swiss Design启发的粗字体主题样式             | 1.0.0   |
+| [jekyll-theme-architect](https://rubygems.org/gems/jekyll-theme-architect) | architect主题                                      | 0.1.1   |
+| [jekyll-theme-cayman](https://rubygems.org/gems/jekyll-theme-cayman) | cayman主题                                         | 0.1.1   |
+| [jekyll-theme-dinky](https://rubygems.org/gems/jekyll-theme-dinky) | dinky主题                                          | 0.1.1   |
+| [jekyll-theme-hacker](https://rubygems.org/gems/jekyll-theme-hacker) | hacker主题                                         | 0.1.1   |
+| [jekyll-theme-leap-day](https://rubygems.org/gems/jekyll-theme-leap-day) | leap-day主题                                       | 0.1.1   |
+| [jekyll-theme-merlot](https://rubygems.org/gems/jekyll-theme-merlot) | merlot主题                                         | 0.1.1   |
+| [jekyll-theme-midnight](https://rubygems.org/gems/jekyll-theme-midnight) | midnight主题                                       | 0.1.1   |
+| [jekyll-theme-minimal](https://rubygems.org/gems/jekyll-theme-minimal) | minimal主题                                        | 0.1.1   |
+| [jekyll-theme-modernist](https://rubygems.org/gems/jekyll-theme-modernist) | modernist主题                                      | 0.1.1   |
+| [jekyll-theme-primer](https://rubygems.org/gems/jekyll-theme-primer) | primer主题                                         | 0.5.4   |
+| [jekyll-theme-slate](https://rubygems.org/gems/jekyll-theme-slate) | slate主题                                          | 0.1.1   |
+| [jekyll-theme-tactile](https://rubygems.org/gems/jekyll-theme-tactile) | tactile主题                                        | 0.1.1   |
+| [jekyll-theme-time-machine](https://rubygems.org/gems/jekyll-theme-time-machine) | time-machine主题                                   | 0.1.1   |
+| [jekyll-titles-from-headings](https://rubygems.org/gems/jekyll-titles-from-headings) | 将第一个heading作为页面的title                     | 0.5.3   |
+| [jemoji](https://rubygems.org/gems/jemoji)                   | Github版本的emoji合集                              | 0.11.1  |
+| [kramdown](https://rubygems.org/gems/kramdown)               | 一个Ruby实现的markdown方言解释器                   | 1.17.0  |
+| [liquid](https://rubygems.org/gems/liquid)                   | 内容模板引擎                                       | 4.0.3   |
+| [minima](https://rubygems.org/gems/minima)                   | minima主题                                         | 2.5.1   |
+| [nokogiri](https://rubygems.org/gems/nokogiri)               | nokogiri主题                                       | 1.10.6  |
+| [rouge](https://rubygems.org/gems/rouge)                     | 一个pygments的替代品，语法高亮工具                 | 3.13.0  |
+| [ruby](https://www.ruby-lang.org/en/downloads/)              | Ruby运行时                                         | 2.5.3   |
+| [safe_yaml](https://rubygems.org/gems/safe_yaml)             | YAML解释器                                         | 1.0.5   |
+| [sass](https://rubygems.org/gems/sass)                       | SASS解释器（已弃用）                               | 3.7.4   |
 
 
 
@@ -103,5 +103,14 @@ Markdown编辑器的选择主要考虑以下几点：
 
 如果上面三条需求都满足得到的话就已经比较合适了，剩下的问题都只是怎么接进我的Jekyll模板里而已。
 
+另外，针对uPic提供的图床怎么选择呢？这里必须要整理得有点乱，我暂时选择了阿里云OSS。
 
+| 服务商 | 价格模型                                                   | 价格                                                         |
+| ------ | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| SM.MS  | Free 5GB存储·5MB文件大小 / Premium 50-100GB 存储，限制频率 | Premium EUR 59.95                                            |
+| 又拍云 | 主要按流量，存储量另计。                                   | 流量0.29元/GB每日，存储0.0043元/GB                           |
+| 七牛云 | 10GB标准存储空间。流量有免费限额。必须先备案。             | 存储0.099元/GB/每月                                          |
+| 阿里云 | 按存储，流量计费。可购买流量包，5年45元。                  | 流量（闲时）：0.25元/GB<br/>（忙时）：0.50元/GB<br/>存储：0.12元/GB/月 |
+| imgur  | 理论上图床免费，但是好像好慢。。                           | Free?                                                        |
 
+在流量跑起来之前，阿里云的应该足够用。

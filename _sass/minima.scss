@@ -14,10 +14,14 @@ $text-color:       #111 !default;
 $background-color: #6596b7 !default;
 $content-background-color: #fdfdfd !default;
 $content-background: repeating-linear-gradient(-61deg, white, white 14px, #fafafa 15px, #fafafa 17px) !default;
-$link-color:      #045aca !default;
-$visited-link-color: #8c8c8c !default;
+$link-color:        #2c29b1 !default;
+$visited-link-color: #160baf;//#8c8c8c !default;
+$layout-link-color: #ffeb3b;
+$layout-link-visited-color: #ffc107;
 
-$grey-color:       #828282 !default;
+$layout-bg-color:   #778899;
+$layout-font-color: #fff;
+$grey-color:        #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 

@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  background: $layout-bg-color;
+  border-top: 5px solid $layout-bg-color; //$grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -21,7 +22,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $layout-font-color; //$grey-color-dark;
   }
 
   i {
@@ -33,7 +34,8 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
-  background-color: $content-background-color;
+  background: $layout-bg-color;
+  //background-color: $content-background-color;
 
   .nav-trigger {
       display: none;
@@ -44,7 +46,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $layout-font-color; // $text-color;
     line-height: $spacing-unit * 1.865; // same as header
     @include media-query($on-laptop) {
       line-height: $base-line-height;
@@ -83,7 +85,7 @@
       text-align: center;
 
       > svg path {
-        fill: $grey-color-dark;
+        fill: $layout-font-color; //$grey-color-dark;
       }
     }
 
@@ -117,6 +119,17 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: $layout-bg-color;
+  
+  a {
+    color: $layout-link-color;
+    &:hover {
+      color: $layout-link-visited-color;
+    }
+    &:visited {
+      color: dark($layout-link-color, 0.24);
+    }
+  }
 }
 
 .footer-heading {
@@ -133,6 +146,7 @@
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
+  color: $layout-font-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }

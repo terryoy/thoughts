@@ -112,7 +112,7 @@ __tmux__的快捷键都要先输入一个特殊的快捷键为前缀（`Ctrl+b`�
 
 tmux的配置文件默认是读取`/etc/tmux.conf`，然后再尝试读取`~/.tmux.conf`文件。另外，还可以通过`source-file`命令来指定配置文件。这就意味着你可以设计一个专注做某件事情的workspace，然后把相应的配置写到一个conf文件里，通过以下命令初始化这个workspace：
 
-```
+```shell
 $ tmux source-file ~/.tmux/workspace1.conf
 ```
 
@@ -126,8 +126,22 @@ $ tmux source-file ~/.tmux/workspace1.conf
 
 tmux本身有许多命令行参数可以利用，不管是在配置文件还是命令，都通过这些命令来完成必要的配置或者是脚本操作。用以下命令可以查看所有的tmux命令：
 
-```
+```shell
 $ tmux list-commands
+```
+
+举个例子说，我们可以通过session来创建多个工作空间，这时可以用上session相关的命令
+
+```shell
+# 查看所有session
+$ tmux list-sessions
+# 新建一个session
+$ tmux new-session -c start-directory -s session-name
+# 判断session是否存在
+$ tmux has-session -t target-session
+# 
+
+
 ```
 
 

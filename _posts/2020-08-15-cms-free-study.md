@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: CMS-Free网站工具调研
 date: '2020-08-15 17:30'
@@ -36,5 +36,3 @@ date: '2020-08-15 17:30'
 [1]: https://github.com/planetjekyll/awesome-jekyll-editors
 [2]: https://github.com/netlify/netlify-cms
 [3]: http://prose.io/
-
-

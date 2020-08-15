@@ -29,7 +29,6 @@ date: '2020-08-15 17:30'
 
 这个是一个Jekyll的插件，主要满足了在本地跑起Jekyll服务以后，有一个前端界面可以管理对应的文章、静态资源等。所以如果你没有一台服务器来跑整个Jekyll服务的话，就只能在作为本地host的一个处理方式。但它的好处是不用关联github api，因为是直接用本地仓库的。
 
-## 参考
 
 [1]: https://github.com/planetjekyll/awesome-jekyll-editors
 [2]: https://github.com/netlify/netlify-cms

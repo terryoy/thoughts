@@ -4,8 +4,6 @@ layout: post
 title: CMS-Free网站工具调研
 date: '2020-08-15 17:30'
 ---
-## CMS-Free网站工具调研
-
 所谓CMS Free就是不再用传统的重型CMS工具来管理站点内容，而是使用轻量级的markdown和网站模板来制作网站（如Jekyll就是其中一个热门的方案）。
 
 鉴于现在我使用Github Pages的服务来放自己的博客网站，一直想找一个方便的编辑工具，虽然Typora很好，可以本地预览，可以插图片，但毕竟对小白（比如我老婆）不友好。所以想想网上应该有人做过基于jekyll的网站编辑工具，果然搜Jekyll Editors可以搜出来[一堆][1]。

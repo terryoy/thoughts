@@ -25,6 +25,10 @@ github_username:  terryoy
 google_analytics: UA-50656512-1
 google_adsense: ca-pub-6012718593977391
 
+disqus:
+  shortname:
+    terryoy
+
 # Build settings
 markdown: kramdown
 theme: minima

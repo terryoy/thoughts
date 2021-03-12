@@ -22,11 +22,21 @@ baseurl: "/thoughts" # the subpath of your site, e.g. /blog
 url: "https://terryoy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  terryoy
 
+google_analytics: UA-50656512-1
+google_adsense: ca-pub-6012718593977391
+google_adslot_top: 
+google_adslot_post: 1086396907
+
+disqus:
+  shortname:
+    terryoy
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 
 defaults:

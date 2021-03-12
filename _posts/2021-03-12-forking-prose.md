@@ -1,4 +1,10 @@
-## 讲讲对Prose的fork计划
+---
+published: true
+layout: page
+title: 把Prose项目Fork了
+date: 2021-03-12T00:00:00.000Z
+publish: true
+---
 
 在看了大量的搭建个人博客的方案以后，我总结的最佳实践有两个：
 
@@ -30,6 +36,3 @@
 - 重构Backbone项目代码到React框架（10%）
 
 这次项目管理就用issue管理，反正目前只有我一个维护者，等于挖了个坑，有空慢慢填咯。
-
-
-

@@ -1,9 +1,10 @@
 ---
 published: true
-layout: page
+layout: post
 title: 把Prose项目Fork了
-date: '2021-03-12 16:00'
-publish: true
+tags: misc
+date: 2021-03-12 16:00
+author: terryoy
 ---
 
 在看了大量的搭建个人博客的方案以后，我总结的最佳实践有两个：

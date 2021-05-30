@@ -91,7 +91,5 @@ published: true
 
 ### 其他日语学习资料
 
-[《日语语法指南》](https://res.wokanxing.info/jpgramma/)
-[如果不会读日语汉字，那怎么查字典？](https://zhidao.baidu.com/question/1831609973637744220.html)
-
-
+- [《日语语法指南》](https://res.wokanxing.info/jpgramma/)
+- [如果不会读日语汉字，那怎么查字典？](https://zhidao.baidu.com/question/1831609973637744220.html)

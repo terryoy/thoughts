@@ -3,37 +3,44 @@
 // Define defaults for each variable.
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   14px !default;
+$base-font-size: 16px !default;
 $base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$large-font-weight: 500 !default;
+$small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit: 30px !default;
 
-$text-color:       #111 !default;
+$text-color: #111 !default;
 $background-color: #6596b7 !default;
 $content-background-color: #fdfdfd !default;
-$content-background: repeating-linear-gradient(-61deg, white, white 14px, #fafafa 15px, #fafafa 17px) !default;
-$link-color:        #2c29b1 !default;
-$visited-link-color: #160baf;//#8c8c8c !default;
+$content-background: repeating-linear-gradient(
+  -61deg,
+  white,
+  white 14px,
+  #fafafa 15px,
+  #fafafa 17px
+) !default;
+$link-color: #2c29b1 !default;
+$visited-link-color: #160baf; //#8c8c8c !default;
 $layout-link-color: #ffeb3b;
 $layout-link-visited-color: #ffc107;
 
-$layout-bg-color:   #778899;
+$layout-bg-color: #778899;
 $layout-font-color: #fff;
-$grey-color:        #828282 !default;
+$grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
 $code-background: #dbebf7;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width: 800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -53,8 +60,4 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
-;
+@import "minima/base", "minima/layout", "minima/syntax-highlighting";

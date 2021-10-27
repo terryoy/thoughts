@@ -38,7 +38,7 @@
   //background-color: $content-background-color;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -111,8 +111,6 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -120,7 +118,7 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   background: $layout-bg-color;
-  
+
   a {
     color: $layout-link-color;
     &:hover {
@@ -159,29 +157,29 @@
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -189,11 +187,9 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
-
 
 /**
  * Page content
@@ -239,8 +235,6 @@
   @include relative-font-size(1.5);
 }
 
-
-
 /**
  * Posts
  */
@@ -249,7 +243,8 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  // @include relative-font-size(2.625);
+  @include relative-font-size(2.125);
   letter-spacing: -1px;
   line-height: 1;
 
@@ -266,7 +261,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    @include relative-font-size(2);
+    @include relative-font-size(1.75);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
@@ -274,7 +269,7 @@
   }
 
   h3 {
-    @include relative-font-size(1.625);
+    @include relative-font-size(1.375);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);

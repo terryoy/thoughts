@@ -2,7 +2,7 @@
 layout: post
 title: 用 Codex 重构了 Prose，终于跑起来了
 tags: 随笔
-date: 2025-10-15
+date: 2025-10-14
 published: true
 ---
 

@@ -1,4 +1,8 @@
 ---
+layout: post
+title: 用 Codex 重构了 Prose，终于跑起来了
+tags: 随笔
+date: 2017-04-19
 published: false
 ---
 ## 用 Codex 重构了 Prose，终于跑起来了

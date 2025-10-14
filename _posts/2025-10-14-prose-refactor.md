@@ -2,10 +2,9 @@
 layout: post
 title: 用 Codex 重构了 Prose，终于跑起来了
 tags: 随笔
-date: 2017-04-19
+date: 2025-10-15
 published: true
 ---
-## 用 Codex 重构了 Prose，终于跑起来了
 
 前段时间单位里氪金了 OpenAI 的 ChatGPT 和 Codex，于是我尝试用它来完成一些之前很花时间一直填不上的坑，就是 prose 的项目构建。
 

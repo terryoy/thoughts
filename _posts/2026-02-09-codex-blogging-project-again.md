@@ -5,7 +5,7 @@ date: 2026-02-09 15:08:39 +0800
 tags: ["github-pages", "codex"]
 categories: ["tech", "notes"]
 permalink: "/codex-blogging-project-again/"
-published: false
+published: true
 ---
 
 去年用 Codex 改写了一个他人写的 Prose 项目，让它可以用新的构建工具跑起来，算是让 AI 改了一点小活。

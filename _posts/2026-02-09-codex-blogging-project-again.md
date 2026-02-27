@@ -21,16 +21,9 @@ published: true
 再试试视频嵌入
 
 bilibili
-
-\<iframe src\="//player.bilibili.com/player.html?isOutside\=true\&aid\=115128074837413\&bvid\=BV1Rdanz7Ev5\&cid\=32088263568\&p\=1" scrolling\="no" border\="0" frameborder\="no" framespacing\="0" allowfullscreen\="true">\</iframe>
-
-
-
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115128074837413&bvid=BV1Rdanz7Ev5&cid=32088263568&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 youtube
-
-\<iframe width\="560" height\="315" src\="https://www.youtube.com/embed/QCKwz8uUFTc?si\=vmNWitP5lIcPsqAI" title\="YouTube video player" frameborder\="0" allow\="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy\="strict-origin-when-cross-origin" allowfullscreen>\</iframe>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QCKwz8uUFTc?si=vmNWitP5lIcPsqAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Terry@2026-02-09
 

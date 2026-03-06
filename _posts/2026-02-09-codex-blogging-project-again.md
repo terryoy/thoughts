@@ -22,7 +22,7 @@ published: true
 
 ## bilibili
 
-<iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=115128074837413&bvid=BV1Rdanz7Ev5&cid=32088263568&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=115128074837413&bvid=BV1Rdanz7Ev5&cid=32088263568&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" ></iframe>
 
 ## youtube
 
